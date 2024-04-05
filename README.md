@@ -1,5 +1,5 @@
 # OAuth-Related-Terminology
-<font color="magenta">**Back-Channel**</font>: The secure way to send requests (as they never touch the Browser). A Javascript example would be to send a request using the fetch() method! (to be truly secure, we need HTTPS)
+**Back-Channel**: <font color="magenta">The secure way to send requests (as they never touch the Browser). A Javascript example would be to send a request using the fetch() method! (to be truly secure, we need HTTPS)</font>
 
 **Front-Channel**: The insecure way to send requests. Typing into the browser URL bar or by sending an 'application/x-www-form-urlencoded' request from your client-side code.
 
