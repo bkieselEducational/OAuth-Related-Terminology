@@ -1,5 +1,5 @@
 # OAuth-Related-Terminology
-**Back-Channel**: The secure way to send requests (as they never touch the Browser). A Javascript example would be to send a request using the fetch() method! (to be truly secure, we need HTTPS)
+**Back-Channel**: The secure way to send requests (as they never touch the Browser). A Python example would be to send a request using the requests class! (to be truly secure, we need HTTPS). Ultimately, an HTTP request that never touches the browser. Something sent from your API.
 
 **Front-Channel**: The insecure way to send requests. Typing into the browser URL bar or by sending an 'application/x-www-form-urlencoded' request from your client-side code.
 
